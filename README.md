@@ -26,8 +26,10 @@ where \(a\), \(b\), and \(c\) are the digits of the number.
 
 ### Examples
 
-**153**: `1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153`
-**9474**: `9<sup>4</sup> + 4<sup>4</sup> + 74</sup> + 4<sup>4</sup> = 9474`
+-**153**: 
+ -`1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153`
+-**9474**:
+ -`9<sup>4</sup> + 4<sup>4</sup> + 74</sup> + 4<sup>4</sup> = 9474`
 
 ### Properties
 
@@ -57,18 +59,18 @@ A happy number is a number that, when you replace it with the sum of the squares
 ### Examples
 
 - **19** is a happy number because:
-  1<sup>2</sup> + 9<sup>2</sup> = 82
-  8<sup>2</sup> + 2<sup>2</sup> = 68
-  6<sup>2</sup> + 8<sup>2</sup> = 100
-  1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
+  - 1<sup>2</sup> + 9<sup>2</sup> = 82
+  - 8<sup>2</sup> + 2<sup>2</sup> = 68
+  - 6<sup>2</sup> + 8<sup>2</sup> = 100
+  - 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
 - Since it reaches 1, **19** is happy.
 
 - **70** is a happy number because:
-  7<sup>2</sup> + 0<sup>2</sup> = 49
-  4<sup>2</sup> + 9<sup>2</sup> = 97
-  9<sup>2</sup> + 7<sup>2</sup> = 130
-  1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10
-  1<sup>2</sup> + 0<sup>2</sup> = 1
+  - 7<sup>2</sup> + 0<sup>2</sup> = 49
+  - 4<sup>2</sup> + 9<sup>2</sup> = 97
+  - 9<sup>2</sup> + 7<sup>2</sup> = 130
+  - 1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10
+  - 1<sup>2</sup> + 0<sup>2</sup> = 1
 - Since it reaches 1, **70** is happy.
 
 ### Properties
