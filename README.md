@@ -20,7 +20,7 @@ Number sequences have fascinated mathematicians for centuries, providing insight
 
 An Armstrong number (also known as a narcissistic number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, in a 3-digit number, an Armstrong number is one where:
 
-`abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup>`
+abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup>
 
 where \(a\), \(b\), and \(c\) are the digits of the number. 
 
@@ -57,10 +57,10 @@ A happy number is a number that, when you replace it with the sum of the squares
 ### Examples
 
 - **19** is a happy number because:
-  - `1<sup>2</sup> + 9<sup>2</sup> = 82`
-  - `8<sup>2</sup> + 2<sup>2</sup> = 68`
-  - `6<sup>2</sup> + 8<sup>2</sup> = 100`
-  - `1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1`
+  - 1<sup>2</sup> + 9<sup>2</sup> = 82
+  - 8<sup>2</sup> + 2<sup>2</sup> = 68
+  - 6<sup>2</sup> + 8<sup>2</sup> = 100
+  - 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
 - Since it reaches 1, **19** is happy.
 
 - **70** is a happy number because:
