@@ -6,7 +6,7 @@ Welcome to the Number Sequences repository! This project explores various intrig
 
 1. [Introduction](#introduction)
 2. [Armstrong Numbers](#armstrong-numbers)
-3. [Python Program](#python-program)
+3. [Happy Numbers](#happy-numbers)
 4. [Contributing](#contributing)
 5. [License](#license)
 
