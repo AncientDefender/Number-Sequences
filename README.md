@@ -26,11 +26,9 @@ where \(a\), \(b\), and \(c\) are the digits of the number.
 
 ### Examples
 
-- **153**: 
-  - 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153
+- **153**:  1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153
 
-- **9474**:
-  - 9<sup>4</sup> + 4<sup>4</sup> + 74</sup> + 4<sup>4</sup> = 9474
+- **9474**: 9<sup>4</sup> + 4<sup>4</sup> + 74</sup> + 4<sup>4</sup> = 9474
 
 ### Properties
 
@@ -64,7 +62,7 @@ A happy number is a number that, when you replace it with the sum of the squares
   - 8<sup>2</sup> + 2<sup>2</sup> = 68
   - 6<sup>2</sup> + 8<sup>2</sup> = 100
   - 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
-  Since it reaches 1, **19** is happy.
+ - Since it reaches 1, **19** is happy.
 
 - **70** is a happy number because:
   - 7<sup>2</sup> + 0<sup>2</sup> = 49
@@ -72,7 +70,7 @@ A happy number is a number that, when you replace it with the sum of the squares
   - 9<sup>2</sup> + 7<sup>2</sup> = 130
   - 1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10
   - 1<sup>2</sup> + 0<sup>2</sup> = 1
-  Since it reaches 1, **70** is happy.
+ - Since it reaches 1, **70** is happy.
 
 ### Properties
 
