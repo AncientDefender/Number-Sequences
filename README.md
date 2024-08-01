@@ -27,9 +27,9 @@ where \(a\), \(b\), and \(c\) are the digits of the number.
 ### Examples
 
 -**153**: 
-  -`1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153`
+  - 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153
 -**9474**:
-  -`9<sup>4</sup> + 4<sup>4</sup> + 74</sup> + 4<sup>4</sup> = 9474`
+  - 9<sup>4</sup> + 4<sup>4</sup> + 74</sup> + 4<sup>4</sup> = 9474
 
 ### Properties
 
