@@ -20,9 +20,7 @@ Number sequences have fascinated mathematicians for centuries, providing insight
 
 An Armstrong number (also known as a narcissistic number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, in a 3-digit number, an Armstrong number is one where:
 
-<b>abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup></b>
-
-where <b><em>a</em>, <em>b</em></b>, and <b><em>c</em></b> are the digits of the number.  
+<b>abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup></b>, where <b><em>a</em>, <em>b</em></b>, and <b><em>c</em></b> are the digits of the number.  
 
 ### Examples
 
