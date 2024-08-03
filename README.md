@@ -22,7 +22,7 @@ An Armstrong number (also known as a narcissistic number) is a number that is eq
 
 <b>abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup></b>
 
-where <b><em>a</em>, <em>b</em></b>, and <b><em>c</em></b> are the digits of the number. 
+where <b><em>a</em>, <em>b</em></b>, and <b><em>c</em></b> are the digits of the number.  
 
 ### Examples
 
@@ -53,7 +53,7 @@ This update includes details on the number of Armstrong numbers and notes on com
 
 ### What are Happy Numbers?
 
-A happy number is a number that, when you replace it with the sum of the squares of its digits and repeat the process, eventually results in the number 1. If the number falls into a loop that does not include 1, it is not a happy number.
+A happy number is a number that, when you replace it with the sum of the squares of its digits and repeat the process, eventually results in 1. If the number falls into a loop that does not include 1, it is not a sad number.
 
 ### Examples
 
@@ -78,7 +78,8 @@ A happy number is a number that, when you replace it with the sum of the squares
 - Every positive integer is either a happy number or not.
 - Happy numbers become less frequent as numbers get larger.
 - In base-10, happy numbers follow a specific pattern, but this pattern may vary in other bases.
-- Non-happy numbers fall into a repeating cycle. A common cycle for non-happy numbers is: 4 → 16 → 37 → 58 → 89 → 145 → 42 → 20 → 4.
+- Non-happy numbers fall into a repeating cycle. A common cycle for non-happy numbers is:  
+  `4 → 16 → 37 → 58 → 89 → 145 → 42 → 20 → 4`
 
 ### How to Find Happy Numbers
 
@@ -90,9 +91,9 @@ To determine if a number is happy:
 4. Continue the process with the new number until you reach 1 or detect a cycle.
 
 ### Python Program
-The repository includes a Python program designed to find Happy numbers efficiently. The program will initially find happy numbers from 1 up to 1 million (~30 seconds). Afterwards, there is freedom to input any number and verify whether the number is happy or sad. 
+The repository includes a Python program designed to find Happy numbers efficiently. The program will initially find happy numbers from 1 up to 1 million (~30 seconds). Afterwards, there is freedom to input any number and verify whether the number is happy or sad.  
 To increase the uppper limit for generating happy numbers, adjust the two parameters on lines 403 and 404. To change the lower limit, go to line 268 and replace  i*chunk_size+1 with  i*chunk_size+**limit** where **limit** is your value.  
-This update includes details on the number of Happy numbers and notes on computational efficiency for finding these numbers. If you need any more adjustments or additional information, just let me know! 
+This update includes details on the number of Happy numbers and notes on computational efficiency for finding these numbers. If you need any more adjustments or additional information, just let me know!  
 
 ## Contributing
 
