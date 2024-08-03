@@ -22,7 +22,7 @@ An Armstrong number (also known as a narcissistic number) is a number that is eq
 
 abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup>
 
-where <spanstyle="font-style: italic;">>a</span>, <spanstyle="font-style: italic;">>b</spanstyle="font-style: italic;">>, and <span>c</span> are the digits of the number. 
+where <em>a</em>, <em>b</em>, and <em>c</em> are the digits of the number. 
 
 ### Examples
 
@@ -62,7 +62,7 @@ A happy number is a number that, when you replace it with the sum of the squares
   - 8<sup>2</sup> + 2<sup>2</sup> = 68
   - 6<sup>2</sup> + 8<sup>2</sup> = 100
   - 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1  
-  Since it reaches 1, <spanstyle="font-style: italic;">>19</span> is happy.  
+  Since it reaches 1, <em>19</<em> is happy.  
 
 - **70** is a happy number because:
   - 7<sup>2</sup> + 0<sup>2</sup> = 49
@@ -70,7 +70,7 @@ A happy number is a number that, when you replace it with the sum of the squares
   - 9<sup>2</sup> + 7<sup>2</sup> = 130
   - 1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10
   - 1<sup>2</sup> + 0<sup>2</sup> = 1  
-  Since it reaches 1, <spanstyle="font-style: italic;">>70</span> is happy.  
+  Since it reaches 1, <em>70</<em> is happy.  
 
 ### Properties
 
