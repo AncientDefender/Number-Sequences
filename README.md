@@ -22,7 +22,7 @@ An Armstrong number (also known as a narcissistic number) is a number that is eq
 
 abc = a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup>
 
-where \(a\), \(b\), and \(c\) are the digits of the number. 
+where <span>a</span>, <span>b</span>, and <span>c</span> are the digits of the number. 
 
 ### Examples
 
@@ -34,7 +34,7 @@ where \(a\), \(b\), and \(c\) are the digits of the number.
 
 - Armstrong numbers are a special case of numbers that can be expressed as the sum of their digits raised to some power.
 - The number of Armstrong numbers in a given digit range is relatively small compared to the total number of numbers in that range.
-- There are 89 known Armstrong numbers in base-10
+- There are 89 known Armstrong numbers in base-10.
 
 ### How to Find Armstrong Numbers
 
@@ -61,35 +61,38 @@ A happy number is a number that, when you replace it with the sum of the squares
   - 1<sup>2</sup> + 9<sup>2</sup> = 82
   - 8<sup>2</sup> + 2<sup>2</sup> = 68
   - 6<sup>2</sup> + 8<sup>2</sup> = 100
-  - 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
-- Since it reaches 1, **19** is happy.
+  - 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1  
+  Since it reaches 1, <span>19</span> is happy.  
 
 - **70** is a happy number because:
   - 7<sup>2</sup> + 0<sup>2</sup> = 49
   - 4<sup>2</sup> + 9<sup>2</sup> = 97
   - 9<sup>2</sup> + 7<sup>2</sup> = 130
   - 1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10
-  - 1<sup>2</sup> + 0<sup>2</sup> = 1
-- Since it reaches 1, **70** is happy.
+  - 1<sup>2</sup> + 0<sup>2</sup> = 1  
+  Since it reaches 1, <span>70</span> is happy.  
 
 ### Properties
 
-- Non-happy numbers fall into a repeating cycle. A common cycle for non-happy numbers is: 4 → 16 → 37 → 58 → 89 → 145 → 42 → 20 → 4.
-- Every positive integer is either a happy number or not. While there are infinitely many happy numbers, they become less frequent as numbers get larger.
+- There are infinitely many happy numbers.
+- Every positive integer is either a happy number or not.
+- Happy numbers become less frequent as numbers get larger.
 - In base-10, happy numbers follow a specific pattern, but this pattern may vary in other bases.
+- Non-happy numbers fall into a repeating cycle. A common cycle for non-happy numbers is: 4 → 16 → 37 → 58 → 89 → 145 → 42 → 20 → 4.
 
 ### How to Find Happy Numbers
 
 To determine if a number is happy:
 
 1. Calculate the sum of the squares of its digits.
-2. If the result is 1, the number is happy but, if the result repeats (i.e., you encounter the same number again), it is not happy.
-3. Continue the process with the new number until you reach 1 or detect a cycle.
+2. If the result is 1, then the number is happy
+3. If the result repeats (i.e., you encounter the same number again), it is not happy.
+4. Continue the process with the new number until you reach 1 or detect a cycle.
 
 ### Python Program
-The repository includes a Python program designed to find Happy numbers efficiently. The program will initially find happy numbers from 1 up to 1 million (~30 seconds). Afterwards, there is freedom to input any number and verify whether the number is happy or sad.
-You can manually increase the uppper limit for the program by adjusting the two parameters on lines 403 and 404. To change the lower limit, go to line 268 and replace  i  *  chunk_size  +  1 with  i  *  chunk_size  +  **limit** where **limit** is your value. 
-This update includes details on the number of Happy numbers and notes on computational efficiency for finding these numbers. If you need any more adjustments or additional information, just let me know!
+The repository includes a Python program designed to find Happy numbers efficiently. The program will initially find happy numbers from 1 up to 1 million (~30 seconds). Afterwards, there is freedom to input any number and verify whether the number is happy or sad. 
+To increase the uppper limit for generating happy numbers, adjust the two parameters on lines 403 and 404. To change the lower limit, go to line 268 and replace  i*chunk_size+1 with  i*chunk_size+**limit** where **limit** is your value.  
+This update includes details on the number of Happy numbers and notes on computational efficiency for finding these numbers. If you need any more adjustments or additional information, just let me know! 
 
 ## Contributing
 
