@@ -70,7 +70,7 @@ A happy number is a number that, when you replace it with the sum of the squares
   - 9<sup>2</sup> + 7<sup>2</sup> = 130
   - 1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10
   - 1<sup>2</sup> + 0<sup>2</sup> = 1  
-  Since it reaches 1, <b><em>70</<em> is happy.</b>  
+  Since it reaches 1, <b><em>70</em> is happy.</b>  
 
 ### Properties
 
